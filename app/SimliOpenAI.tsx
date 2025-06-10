@@ -41,7 +41,7 @@ const SimliOpenAI: React.FC<SimliOpenAIProps> = ({
   const [showPopup, setShowPopup] = useState(false);
   const [videoName, setVideoName] = useState<string | null>(null);  
   const [email, setEmail] = useState("");
-  const [userid, setUserId] = useState("questions");
+  const [userid, setUserId] = useState("questions"); //namespace
 
 const emailRef = useRef(email);
 const useridRef = useRef(userid);
